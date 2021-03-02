@@ -1,0 +1,108 @@
+*{
+    background-color: #0F1B22;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(./stratabold.otf);
+    font-weight: bold;
+  }
+
+h1 {
+    font-family: myFirstFont;
+    font-size: 36px;
+    color: #C1E4DD;
+}
+
+h2 {
+    font-family: myFirstFont;
+    font-size: 16px;
+    color: #C1E4DD;
+}
+
+.phone-screen-width {
+    width: 400px;
+    text-align: center;
+}
+
+#mainGrid {
+    display: grid;
+    grid-template-rows: 160px 25px 160px 25px 160px  25px 160px  25px 160px 25px;
+    grid-template-columns: 160px 160px;
+    margin: 18px 18px 18px 18px;
+    column-gap: 16px;
+    row-gap: 16px;
+    grid-template-areas:
+    "firstproject secondproject"
+    "gridtext gridtext"
+    "thirdproject fourthproject"
+    "gridtext gridtext"
+    "fifthproject sixthproject"
+    "gridtext gridtext"
+    "seventhproject eighthproject"
+    "gridtext gridtext"
+    "ninthproject tenthproject"
+    "gridtext gridtext"
+  }
+
+  .gridtext {
+    text-align: center;
+    color: #C1E4DD;
+    padding-bottom: 10px;
+  }
+  
+  #firstproject {
+    grid-area: "firstproject";
+    background-image: url("./koala.svg");
+  }
+  
+  #secondproject {
+    grid-area: "secondproject";
+    background-image: url("./possum.svg");
+  }
+  
+  #thirdproject {
+    grid-area: "thirdproject";
+    background-image: url("./kangaroo.svg");
+  } 
+  
+  #fourthproject {
+    grid-area: "fourthproject";
+    background-image: url("./wombat.svg");
+  } 
+  
+  #fifthproject {
+    grid-area: "fifthproject";
+    background-image: url("./platypus.svg");
+  } 
+  
+  #sixthproject {
+    grid-area: "sixthproject";
+    background-image: url("./monotreme.svg");
+  } 
+
+  #seventhproject {
+    grid-area: "seventhproject";
+    background-image: url("./rockwallaby.svg");
+  } 
+  
+  #eighthproject {
+    grid-area: "eighthproject";
+    background-image: url("./bettong.svg");
+  } 
+  
+  #ninthproject {
+    grid-area: "ninthproject";
+    background-image: url("./echidna.svg");
+  } 
+  
+  #tenthproject {
+    grid-area: "tenthproject";
+    background-image: url("./unsure.svg");
+  } 
+  
+   
+  .heroGridArea {
+    align-items: center;
+  }
+ 

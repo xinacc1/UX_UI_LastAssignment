@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="162" height="162" viewBox="0 0 162 162">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e49e71"/>
+      <stop offset="1" stop-color="#e07e6f"/>
+    </linearGradient>
+  </defs>
+  <g id="unsure" transform="translate(-194 -1147)">
+    <rect id="pink_rectangle" data-name="pink rectangle" width="162" height="162" rx="15" transform="translate(194 1147)" fill="url(#linear-gradient)"/>
+    <text id="_" data-name="?" transform="translate(275 1255)" fill="#0f1b22" font-size="80" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="-0.032em"><tspan x="-19.082" y="0">?</tspan></text>
+  </g>
+</svg>
