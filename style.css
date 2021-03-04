@@ -54,6 +54,12 @@ hr {
     width: 400px;
 }
 
+.box-link {
+  width: 160px;
+  height: 160px;
+  background-color: transparent;
+}
+
 .button1 {
         border: none;
         border-radius: 50px;
