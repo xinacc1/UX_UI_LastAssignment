@@ -60,6 +60,17 @@ hr {
   background-color: transparent;
 }
 
+.phone-button {
+  width: 260px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+.no-link {
+  text-decoration: none;
+}
+
 .button1 {
         border: none;
         border-radius: 50px;
@@ -73,6 +84,44 @@ hr {
         display: block;
         font-size: 14px;
         cursor: pointer;
+        color: #0F1B22;
+}
+
+a[href^="tel:"] {
+  text-decoration: none;
+  color: #0F1B22;
+  font-family: myFirstFont;
+  background-color: #E07E6F;
+  }
+
+  a {
+    text-decoration: none;
+    color: #0F1B22;
+    font-family: myFirstFont;
+    background-color: #E07E6F;
+    }
+
+.testing {
+  text-decoration: none;
+  background-color: #E07E6F;
+  color: #0F1B22;
+}
+
+.button1a {
+  border: none;
+  border-radius: 50px;
+  color: #0F1B22;
+  background-color: #E07E6F;
+  margin: 15px 60px;
+  width: 260px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  cursor: pointer;
+  color: #0F1B22;
+  font-family: arial;
 }
 
 .button2 {
