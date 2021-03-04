@@ -4,7 +4,13 @@
 			"path": "."
 		},
 		{
-			"path": "../../UX_UI_HW_20"
+			"path": "../Hobby Class Activity"
+		},
+		{
+			"path": "../UX_UI_HW_20"
+		},
+		{
+			"path": "../UX_UI_HOBBY_2"
 		}
 	],
 	"settings": {}
